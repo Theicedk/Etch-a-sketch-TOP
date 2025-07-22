@@ -3,16 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-a-sketch TOP</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Practica Grid con flexbox</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Etch-a-sketch</h1>
+    <div id="parent-container">
+        
+       <h1>Etch-a-sketch</h1>
+        <div id="container-extrastyle">
+            <div id="size-lock">
+                <div id="container"></div>
+            </div>
+            
 
+            <div id="options">
+                <h2>Select color: <input type="color" id="colorPicker" value="#000000"></h2>
+            
+                <button id="generate">Change grid size</button>
+
+            </div>
+            
+        </div>
+        
+    
+
+    </div>
     
 
 
-
-    <script src="myscripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
